@@ -835,13 +835,13 @@ body.ht-tm-default-theme .ht-tm-btn-outline-white {
     color: #007bff !important; }
 
 body.ht-tm-vibrant-sea .ht-tm-darkness {
-  background-color: #021127; }
+  background-color: #1e1e1e; }
 
 body.ht-tm-vibrant-sea .ht-blog-share-buttons {
   line-height: 28px; }
 
 body.ht-tm-neon-glow .ht-tm-sidenav {
-  background: #0c0d16; }
+  background: #1e1e1e; }
 
 body.ht-tm-neon-glow .hljs {
   color: #b1b5ff; }
@@ -876,7 +876,7 @@ body.ht-tm-neon-glow .hljs-bullet {
   color: #efe9a1; }
 
 body.ht-tm-neon-glow .ht-tm-codesample-code pre {
-  background: #32334a; }
+  background: #1e1e1e; }
 
 body.ht-tm-neon-glow .ht-blog-share-buttons {
   line-height: 28px; }
@@ -889,12 +889,12 @@ body.ht-tm-neon-glow .ht-tm-componentsblock {
           box-shadow: none; }
 
 body.ht-tm-neon-glow .ht-tm-needs-darkness.ht-tm-darkness {
-  background: #c3dbe6; }
+  background: #ffffff; }
   body.ht-tm-neon-glow .ht-tm-needs-darkness.ht-tm-darkness .ht-tm-cat-subtitle {
-    color: #0C0D16; }
+    color: #1e1e1e; }
 
 body.ht-tm-neon-glow .ht-navbar-wrapper {
-  background: #0C0D16; }
+  background: #1e1e1e; }
 
 .text-underline {
   text-decoration: underline; }
