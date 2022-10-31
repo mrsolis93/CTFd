@@ -21,6 +21,44 @@
   animation: scanline 8s linear infinite
 } */
 
+
+.vim-caret {
+  -webkit-animation: vimCaret 1s linear infinite;
+       -o-animation: vimCaret 1s linear infinite;
+          animation: vimCaret 1s linear infinite; 
+        
+        }
+
+@-webkit-keyframes vimCaret {
+  0% {
+    background-color: transparent; }
+  49% {
+    background-color: transparent; }
+  50% {
+    background-color: rgba(24, 190, 66, 0.2); }
+  100% {
+    background-color: rgba(24, 190, 66, 0.2); } }
+
+@-o-keyframes vimCaret {
+  0% {
+    background-color: transparent; }
+  49% {
+    background-color: transparent; }
+  50% {
+    background-color: rgba(24, 190, 66, 0.2); }
+  100% {
+    background-color: rgba(24, 190, 66, 0.2); } }
+
+@keyframes vimCaret {
+  0% {
+    background-color: transparent; }
+  49% {
+    background-color: transparent; }
+  50% {
+    background-color: rgba(24, 190, 66, 0.2); }
+  100% {
+    background-color: rgba(24, 190, 66, 0.2); } }
+
 .challenge-charts-box {
   padding: 40px 0 40px 0;
   margin-top: 10px;
@@ -962,7 +1000,8 @@ pre code {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
   margin-right: -15px;
   margin-left: -15px
 }
@@ -1968,7 +2007,7 @@ pre code {
 .table th {
   padding: .75rem;
   vertical-align: top;
-  border-top: 1px solid #261771
+  border-top: 1px solid rgba(26,207,72, 0.3)
 }
 
 .table thead th {
@@ -2004,12 +2043,13 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(38, 23, 113, .1)
+  background-color: rgba(26,207,72, 0.075)
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
-  background-color: rgba(0, 0, 0, .075)
+  color: #fff;
+  background-color: rgba(26,207,72, 0.2);
+ 
 }
 
 .table-primary,
@@ -2826,19 +2866,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff
+  background-color: rgba(26,207,72, 0.075);
+  border-color: rgba(26,207,72, 0.2)
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc
+  background-color: rgba(26,207,72, 0.2);
+  border-color: rgba(26,207,72, 0.2)
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+  box-shadow: 0 0 0 .2rem rgba(26,207,72, 0.2)
 }
 
 .btn-primary.disabled,
