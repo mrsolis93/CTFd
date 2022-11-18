@@ -94,9 +94,9 @@ select option {
 }
 
 .challenge-submit {
-  background: #ff0e66 !important;
+  background: rgba(26,207,72, 0.8) !important;
   color: #fff !important;
-  box-shadow: 0 2px 25px rgba(255, 0, 130, .5);
+  box-shadow: 0 2px 25px rgba(26,207,72, 0.4);
   border: 0 !important
 }
 
@@ -106,9 +106,9 @@ select option {
 }
 
 .challenge-button {
-  box-shadow: 3px 3px #3312d5 !important;
-  background-color: #2378c0 !important;
-  border-color: #2378c0 !important
+  box-shadow: 3px 3px rgba(26,207,72, 0.2) !important;
+  background-color: rgba(26,207,72, 0.1) !important;
+  border-color: rgba(26,207,72, 0.05) !important
 }
 
 .challenge-button span:before {
@@ -122,8 +122,8 @@ select option {
 }
 
 .challenge-button:hover {
-  background-color: #ff0e66 !important;
-  border-color: #8f0034 !important
+  background-color: rgba(26,207,72, 0.8) !important;
+  border-color: rgba(26,207,72, 0.4) !important
 }
 
 .challenge-tag {
@@ -132,7 +132,7 @@ select option {
 }
 
 .challenge-name {
-  color: #ff0e66;
+  color: rgba(26,207,72, 0.8);
   text-shadow: unset;
   font-size: 1rem
 }
@@ -6171,9 +6171,9 @@ a.close.disabled {
   align-items: center;
   padding: .25rem .75rem;
   color: #fff;
-  background-color: #30207c;
+  background-color: #343a40;
   background-clip: padding-box;
-  border-bottom: 1px solid #30207c
+  border-bottom: 1px solid #343a40
 }
 
 .toast-body {
@@ -6274,7 +6274,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #1e253e;
+  background-color: #343a40;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: .3rem;
